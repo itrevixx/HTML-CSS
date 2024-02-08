@@ -1,0 +1,26 @@
+.contenedora {
+    margin: auto;
+    display: flex;
+}
+
+.leftrow {
+    margin-left: 15%;
+    border-right: 1px solid black;
+
+}
+
+img {
+    border-bottom: 1px solid black;
+    padding: 15px
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 30px;
+    height: 300px;
+}
+
+.rightrow {
+    padding: 20px;
+    margin-left: 5px;
+}

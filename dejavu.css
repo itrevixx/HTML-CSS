@@ -1,0 +1,59 @@
+body {
+    background: linear-gradient(90deg, red, orange, blue);
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: right;
+    margin: 0;
+}
+
+h2 {
+    border-bottom: 3px solid white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+.fecha {
+    text-align: center;
+}
+
+.date {
+    padding: 3px;
+    background-color: #808080;
+    color: white;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.article {
+    border-bottom: 3px solid black;
+    padding-bottom: 30px;
+}
+
+strong {
+    font-variant: small-caps;
+}
+
+.blanco {
+    background-color: white;
+    color: red;
+    font-weight: bold;
+}
+
+.cursiva {
+    font-style: italic;
+    font-size: larger;
+    text-decoration: underline 1px dashed red;
+    background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
+
+}
