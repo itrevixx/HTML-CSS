@@ -1,0 +1,52 @@
+body {
+    background-color: #bfc1b0;
+    font-family: sans-serif;
+    text-align: justify;
+    font-size: 25px;
+}
+
+.container {
+    width: 55%;
+    margin: auto;
+}
+
+h1 {
+    color: #191970;
+    letter-spacing: 35px;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 47px;
+}
+
+h2 {
+    background-color: #5b6135;
+    color: white;
+    font-size: 38px;
+}
+
+strong {
+    font-style: italic;
+}
+
+.novella {
+    display: block;
+    margin: auto;
+}
+
+.articulo2 {
+    display: flex;
+}
+
+.box h2 {
+    margin-top: 0;
+}
+
+.box p {
+    margin-left: 20px;
+}
+
+.croce {
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
