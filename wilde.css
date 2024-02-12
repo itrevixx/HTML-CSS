@@ -1,0 +1,25 @@
+body {
+    background-color: #fddbbd;
+}
+
+h1 {
+    color: #b0b0b0;
+    text-align: center;
+}
+
+div {
+    background-color: #F2D0AB;
+    border: #C9A568 2px dashed;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    height: 12em;
+    width: 12em;
+    line-height: 150%;
+}
+
+p:first-of-type::first-letter {
+    font-size: 3em;
+    float: left;
+    color: #c9a568;
+}
