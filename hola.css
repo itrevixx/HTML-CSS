@@ -1,0 +1,18 @@
+p {
+    text-shadow: 50px 50px 2px green, 50px -50px 2px orange, -50px -50px 2px blue, -50px 50px 2px red;
+    transition: 1s;
+    font-size: 5rem;
+    margin-left: 40%;
+}
+
+p:hover {
+    text-shadow: -50px -50px 1px green, -50px 50px 1px orange, 50px 50px 1px blue, 50px -50px 1px red;
+    transition: 3s;
+}
+
+h1 {
+    text-align: center;
+    background-color: aquamarine;
+    width: 32%;
+    margin: auto;
+}

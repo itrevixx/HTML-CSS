@@ -1,0 +1,20 @@
+.container {
+    background-image: url(panteon.jpg);
+    width: 722px;
+    height: 480px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    gap: 70px;
+}
+
+.col {
+    overflow: auto;
+    width: 70px;
+    height: 186px;
+}

@@ -1,0 +1,25 @@
+.con {
+    background: pink;
+    width: 300px;
+    height: 300px;
+    transition: 2s;
+}
+
+.sin {
+    background: red;
+    width: 300px;
+    height: 300px;
+    float: right;
+}
+
+.tres {
+    background: blue;
+    width: 300px;
+    height: 300px;
+    transition: 10s;
+}
+
+div:hover {
+    background: black;
+    transition: 1s;
+}

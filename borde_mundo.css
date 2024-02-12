@@ -1,0 +1,14 @@
+div {
+    border-width: 35px;
+    padding: 20px;
+    border-style: solid;
+    border-image: url(mundo.svg);
+}
+
+#stretch {
+    border-image: url(border.png) 30 30 stretch;
+}
+
+#round {
+    border-image: url(border.png) 30 30 round;
+}

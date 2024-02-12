@@ -1,0 +1,8 @@
+@font-face {
+    font-family: miFuente;
+    src: url(introrustg-base2line.otf)
+}
+
+h1 {
+    font-family: miFuente;
+}
