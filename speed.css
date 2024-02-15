@@ -1,0 +1,15 @@
+div {
+    background-color: pink;
+    width: 310px;
+    height: 310px;
+    transition-property: width;
+    transition-duration: 1s;
+    /*Los tipos de aceleración aceptados son: ease, linear, ease-in, ease-out, ease-in-out*/
+    transition-timing-function: linear;
+
+}
+
+div:hover {
+    width: 100%;
+    height: 80px;
+}

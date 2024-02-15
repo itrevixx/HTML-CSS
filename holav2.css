@@ -1,0 +1,36 @@
+p:hover span {
+    transition: 1s;
+
+}
+
+p {
+    text-align: center;
+}
+
+p:hover .h {
+    font-size: 800%;
+    color: white;
+    text-shadow: 2px 2px 5px purple;
+    border: 5px solid pink;
+    background-color: black;
+    text-transform: capitalize;
+}
+
+p:hover .o {
+    font-size: 1550%;
+    color: red;
+    text-shadow: 10px 10px 5px gray;
+    text-transform: capitalize;
+
+}
+
+p:hover .l {
+    font-size: 650%;
+    color: blue;
+    text-decoration: underline;
+}
+
+p:hover .a {
+    font-size: 250%;
+    color: yellow;
+}
