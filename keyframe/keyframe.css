@@ -1,0 +1,23 @@
+div.box1 {
+    width: 300px;
+    height: 300px;
+    background: red;
+    margin-left: 35%;
+    margin-top: 10%;
+
+}
+
+div.box1:hover {
+    animation: move 2s;
+}
+
+@keyframes move {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(45deg);
+        border-radius: 100%;
+    }
+}
