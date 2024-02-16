@@ -1,0 +1,62 @@
+.menu {
+    display: flex;
+}
+
+.menu li {
+    list-style: none;
+    display: flexbox;
+    flex-direction: column;
+}
+
+@font-face {
+    font-family: flechita;
+    src: url(Arrows_tfb.ttf);
+}
+
+li.hasChildren ul {
+    opacity: 0;
+    overflow: hidden;
+    max-height: 0
+}
+
+li.hasChildren>a:after {
+    color: purple;
+    content: " Z";
+    font-family: flechita;
+}
+
+/*al final del enlace de la liste cuya class es hasChildren se añade una o*/
+
+.hasChildren ul {
+    position: absolute;
+    left: 110px;
+    transition: 1s;
+    top: 200px;
+}
+
+.hasChildren li {
+    display: block;
+    position: relative;
+}
+
+.menu li a {
+    color: black;
+    background: pink;
+    border: solid black 4px;
+    border-radius: 50px;
+    margin: 1px;
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+
+}
+
+.menu li a:hover {
+    background-color: #fa8072;
+    color: #fe2b00;
+}
+
+li.hasChildren:hover ul {
+    opacity: 1;
+    max-height: 800px;
+}
