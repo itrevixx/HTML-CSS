@@ -1,0 +1,73 @@
+body {
+    background: #e8e8e8;
+    flex-direction: column;
+    display: flex;
+    margin: 0;
+    height: 100%;
+}
+
+.container {
+    width: 965px;
+    margin: auto;
+    border-radius: 15px;
+    background: white;
+    border: 2px transparent black;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+.col {
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+    margin: 5%;
+    justify-content: space-between;
+    gap: 35px;
+}
+
+h2 {
+    color: red;
+}
+
+li:hover {
+    background-color: #b52025;
+}
+
+
+.flaixbac {
+    width: 100%;
+}
+
+.vuit {}
+
+ul {
+    list-style: none;
+    float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    justify-content: end;
+}
+
+li {
+    float: left;
+    width: 70px;
+    height: 35px;
+    padding-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+
+}
+
+.inici {
+    background: #b52025;
+}
