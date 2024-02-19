@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(6, 6, 31);
+}
+
+.negro {
+    background: black;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border: 5px orange solid;
+}
+
+.cosas {
+    position: absolute;
+    transition: 1s;
+    width: 300px;
+    height: 300px;
+}
+
+p {
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    opacity: 0;
+    transition: 1s;
+    text-align: center;
+    width: 100%;
+    top: 100px;
+    text-transform: uppercase;
+}
+
+.negro:hover p {
+    opacity: 1;
+}
+
+.negro:hover .cosas {
+    opacity: 0.2;
+}
