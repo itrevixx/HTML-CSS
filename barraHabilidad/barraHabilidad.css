@@ -1,0 +1,22 @@
+.barra {
+    width: 500px;
+    height: 30px;
+    border: 2px solid black;
+}
+
+.ult {
+    background: green;
+    height: 100%;
+    width: 0%;
+    animation: move 1s forwards;
+}
+
+@keyframes move {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 80%
+    }
+}
