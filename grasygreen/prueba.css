@@ -1,0 +1,179 @@
+@font-face {
+    font-family: fuente;
+    src: url(./grassy/fuente.woff);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: fuente;
+}
+
+.container {
+    width: 100%;
+}
+
+.header {
+
+    background: rgba(22, 160, 133, 0.7);
+    width: 100%;
+    position: fixed;
+    text-align: center;
+}
+
+.header .menu {
+
+    list-style: none;
+    text-align: center;
+
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    display: block;
+    padding: 25px;
+    text-decoration: none;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.menu a:hover {
+    background-color: rgba(22, 160, 133, 0.2);
+}
+
+.grassy {
+    background: #333333;
+    text-align: center;
+    color: white;
+    padding: 150px;
+}
+
+.grassy h1 {
+    font-size: 5em;
+}
+
+.grassy h2 {
+    font-size: 0.8em;
+}
+
+.foto {
+    background: url(./grassy/pic01.jpg);
+    height: 500px;
+}
+
+.content {
+    width: 1024px;
+    display: flex;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.left {
+    width: 70%;
+}
+
+.left h2 {
+    color: rgb(68, 105, 105);
+    font-weight: lighter;
+    padding-bottom: 15px;
+}
+
+.left h3 {
+    color: rgb(87, 148, 239);
+    font-weight: lighter;
+    padding-bottom: 10px;
+}
+
+.right {
+    width: 30%;
+    padding-left: 20px;
+}
+
+.right .standard {
+    list-style: none;
+}
+
+.right h2 {
+    padding-bottom: 15px;
+    font-weight: lighter;
+}
+
+.standard li {
+    padding-bottom: 20px;
+}
+
+.standard a {
+    color: black;
+}
+
+.footer {
+    background-color: #333333;
+    padding-top: 20px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.footrow {
+    display: flex;
+    width: 1024px;
+    margin: auto;
+    padding-left: 20px;
+}
+
+.col {
+    width: 33%;
+}
+
+.col h2 {
+    padding-bottom: 25px;
+    padding-top: 10px;
+    color: white;
+    font-weight: lighter;
+}
+
+.col p {
+    color: white;
+    padding-bottom: 15px;
+    text-align: justify;
+}
+
+.col .footlist {
+    list-style: none;
+}
+
+.footlist li {
+    padding-bottom: 15px;
+}
+
+.footlist a {
+    color: #59657e;
+}
+
+
+.network {
+    display: flex;
+    list-style: none;
+}
+
+.network li {
+    padding: 10px;
+}
+
+.footer2 {
+    background-color: #16a085;
+    padding: 85px;
+}
+
+.footer2 p {
+    text-align: center;
+    color: #ffffff;
+    font-size: 0.8em;
+}

@@ -1,0 +1,17 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 15px;
+    row-gap: 15px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+}
+
+p {
+    margin-left: 8px;
+}

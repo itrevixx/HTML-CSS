@@ -1,0 +1,180 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(./Roboto-Thin.ttf);
+}
+
+body {
+    font-family: roboto;
+    color: #797979;
+}
+
+.wrapper {
+    width: 100%;
+    margin: auto;
+}
+
+.header {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    background-color: rgba(33, 52, 48, 0.4);
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li:not(:last-of-type) {
+    border-right: 2px solid white;
+}
+
+
+
+.menu {
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+
+}
+
+.menu a {
+    display: block;
+    padding: 25px;
+    margin: 0;
+    text-decoration: none;
+    color: white;
+}
+
+.foto {
+    background: url(./header.jpg) no-repeat;
+    height: 410px;
+    background-attachment: fixed;
+    background-size: cover
+}
+
+.footer .foto {
+    height: 250px;
+}
+
+.pfoto {
+    text-align: center;
+    padding: 100px;
+    color: white;
+}
+
+.content {
+    background-color: #f2f2f2;
+}
+
+.contentTop {
+    width: 1024px;
+    margin: auto;
+}
+
+.content1 {
+    border-bottom: 3px solid black;
+    padding-bottom: 20px;
+
+}
+
+.content2 {
+    margin-top: 5px;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    margin: 5px;
+}
+
+.boton {
+    margin-top: 20px;
+    display: block;
+    background: #72ac80;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    color: #ffffff;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    color: black;
+}
+
+h2 {
+    text-align: center;
+    padding: 25px;
+    margin-bottom: 30px;
+}
+
+p {
+    text-align: center;
+    color: black;
+}
+
+h3 {
+    text-align: center;
+    padding: 15px;
+}
+
+.row2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1024px;
+    margin: auto;
+    padding-top: 25px;
+    justify-content: space-between;
+}
+
+.col2 {
+    width: 45%;
+    margin: 5px;
+    padding-bottom: 35px;
+}
+
+.col2 img {
+    width: 100%;
+}
+
+.black {
+    width: 1024px;
+    margin: auto;
+
+}
+
+.pblack {
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+
+.footer {
+    background-color: black;
+    height: 500px;
+}
+
+.black p {
+    padding: 25px;
+    color: white;
+}
+
+.col2 p {
+    text-align: left;
+}
+
+.col2 h3 {
+    text-align: left;
+    padding: 0;
+}
